@@ -1,0 +1,56 @@
+Levels: dependent on jumps. Changes point value on field and jump types
+-Tandem
+-Student
+-Licensed
+-Coach
+-Videographer
+-Wingsuiter
+-Instructor
+-BASE Jumper
+
+Inputs:
+Top bumper
+Plane bumper
+cloud bumper
+Left target
+right target
+left detector
+right detector
+spinner
+ramp
+cutaway
+reserve
+left flipper
+right flipper
+
+outputs:
+screen
+score
+lights
+left target pointer
+right target pointer
+left detector pointer
+right detector pointer
+ramp pointer
+left arrrow
+right arrow
+level
+ball enable
+magnet
+altimeter
+
+Solenoids: 7
+top bumper
+plane bumper
+cloud bumper
+ramp
+reserve
+cutaway
+ball enable
+
+There is lots of stuff still to do
+
+Notes:
+Use key matrix inputs on LED driver for inputs.
+	->it has an interrupt pin, so PICAXE only has to poll one pin
+	->should have plenty of switches to add to bumpers-one 12v for solenoid, one isolated for keypad driver
